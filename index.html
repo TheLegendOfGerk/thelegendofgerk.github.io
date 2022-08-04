@@ -1,0 +1,37 @@
+<!-- Complete your final project
+Main objectives:
+Create an input field for users to ask a question
+Create a label for your input field telling your user to "Ask me anything!"
+Create an "ask" button (this will run the function that outputs a random magic 8 ball image)
+Create a div with an id of "answers" that you will insert the images into using js
+Create an "ask" function that when clicked, will choose a random 8ball image and insert it into your "answers" div
+Replace the input field with the user's question when displaying the answer
+Style your page any way you like
+Activate Github Pages for your project -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerk's Final Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <h1>Ask a question! Anything*.</h1>
+    <p><form name="QuestionForm">
+        <input type="text" id="inputQuestion" name="inputQuestion" placeholder="Your question?">
+        <br>
+        <button id="askButton">Ask!</button>
+    </form></p>
+    <div id="QuestionContainer"><h2 id="QuestionDisplay">What is thy wisdom, O Eightest of Balls?</h2></div>
+    <div id="ImagesContainer">
+        <img id="BoringBGBall" src="./img/magic8ball_start.png" width="600px" height="600px">
+        <img id="AnswerBall" src="./img/magic8ball_start.png" width="600px" height="600px">
+    </div>
+
+    <footer><p>*Questions limited to binary yes/no answers. Not legally binding.<br>Please don't steal my <strike>crappy</strike> <b>awesome</b> JavaScript.</p></footer>
+
+</body>
+</html>
