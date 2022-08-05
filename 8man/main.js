@@ -45,7 +45,7 @@ function fadeIn(target) {
     target.style.opacity = 0;
     var tick = setInterval (function () {
         if (target.style.opacity < 1){
-            opacity += 0.02
+            opacity += 0.04
             target.style.opacity = opacity;
             //console.log(image.style.opacity);
         }
