@@ -3,6 +3,11 @@ html {
     min-width: 320px;
     margin: auto;
       }
+
+@font-face {
+    font-family: "Strikers 1945 Regular", sans-serif;
+    src: url("./strikers.ttf");
+    }
   
   body {
     background-color: #600606;
