@@ -16,10 +16,12 @@ Activate Github Pages for your project -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerk's Final Project</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./strikers.ttf">
     <script defer src="./main.js"></script>
 </head>
 <body>
-    <h1>Ask a question! Anything*.</h1>
+    <h3>Originally a mild-mannered businessman, Octavio Ohachi's life was forever changed when he fell into a vat of mildly blue-dyed alcohol! Empowered by its azure mystique with the ability to answer simple yes/no questions, he fights the endless fight against evil forces of Uncertainty! <br>He is...
+    <br><big id="namedrop">8-Man!</big></h4>
     <p><form name="QuestionForm">
         <input type="text" id="inputQuestion" name="inputQuestion" placeholder="Your question?">
         <br>
@@ -27,12 +29,14 @@ Activate Github Pages for your project -->
     </form></p>
     <div id="QuestionContainer"><h2 id="QuestionDisplay">What is thy wisdom, O Eightest of Balls?</h2></div>
     <div id="ImagesContainer">
-        <img id="BoringBGBall" src="./img/magic8ball_start.png" width="600px" height="600px">
-        <img id="AnswerBall" src="./img/magic8ball_start.png" width="600px" height="600px">
+        <img id="EightManPicture" src="./8man.png" width="512px" height="512px">
+        <div id="DialogueContainer">
+            <img id="DialogueImg" src="./speechbubble.png" width="512px" height="512px">
+            <div id="ResponseText"><p>Go to it!</p></div>
+        </div>
     </div>
 
-    <footer><p>*Questions limited to binary yes/no answers. Not legally binding.<br>Please don't steal my <strike>crappy</strike> <b>awesome</b> JavaScript.<br>
-    Too boring? Try <a href=./8man/index.html><b>Ask 8-Man</b></a> instead!</p></footer>
+    <footer><p><b>NOTE:</b> 8-Man is not a lawyer. Or a medical professional. He's not even a civil servant.<br>He's a vigilante battling the questionably evil forces of uncertainty.<br>As such, his advice is not legally binding.<br>Also, please don't steal my <strike>crappy</strike> <b>awesome</b> JavaScript.</p></footer>
 
 </body>
 </html>
