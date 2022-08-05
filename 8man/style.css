@@ -5,8 +5,8 @@ html {
       }
 
 @font-face {
-    font-family: "Strikers 1945 Regular", sans-serif;
-    src: url("./strikers.ttf");
+    font-family: "Strikers 1945 Regular";
+    src: url("./strikers.ttf") format("truetype");
     }
   
   body {
